@@ -1,5 +1,14 @@
-# Getting Started with Create React App
+# Git
+ ## Check new file
+   ## `git Status`
+## Add file
+   ## `git Add .`
+## Commit file
+   ## `git Commit -m "first Commit"`
+## Push Git
+   ## `git push`
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
