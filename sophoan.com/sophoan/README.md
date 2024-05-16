@@ -77,3 +77,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### React JS State
+import React,{useState} from "react";
+
+ const HomeScreen = () =>{
+
+    const [x,setX]=useState(0);
+    
+    const XInCrease=()=>{
+        setX(x+1)
+    }
+    const XDeCrease=()=>{
+        setX(x-1)
+    }
+
+    return (
+    <div>
+        <h1>HomeScreen</h1>
+        <h1 onClick={XInCrease}>+</h1>
+        <h1 onClick={XDeCrease}>-</h1>
+        <h1>{x}</h1>
+    </div>
+        
+    )
+ }
